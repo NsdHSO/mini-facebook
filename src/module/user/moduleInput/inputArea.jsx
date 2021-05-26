@@ -8,10 +8,8 @@ const InputArea = () => {
       <div className="tw-bg-gray-200 text-white tw-rounded-full tw-bg-gray-100 hover:tw-bg-gray-200 ">
         <div className="tw-flex  tw-bg-gray-100 hover:tw-bg-gray-200 tw-rounded-full ">
           <FontAwesomeIcon className="tw-text-gray-300 tw-text-2xl tw-mt-1 tw-ml-2" icon={faSearch} />
-          <input type="text" readonly="" className="form-control-plaintext tw-text-m tw-rounded-full tw-outline-none tw-text-gray-500 tw-w-52 tw-h-8 tw-bg-gray-100 hover:tw-bg-gray-200 hover:tw-border-gray-500" id="staticEmail" value="email@example.com"></input>
-
+          <input type="text" readonly="" className="form-control-plaintext tw-text-m tw-rounded-full tw-outline-none tw-text-gray-500 tw-w-52 tw-h-8 tw-bg-gray-100 hover:tw-bg-gray-200 hover:tw-border-gray-500" id="staticEmail" value="Search Facebook"></input>
         </div>
-
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ const ModuleActionRightSide = () => {
             <div className="tw-bg-gray-200 text-white tw-rounded-full tw-bg-gray-100 hover:tw-bg-gray-200 tw-justify-center tw-items-center">
               <div className="tw-flex  tw-bg-gray-100 hover:tw-bg-gray-200 tw-rounded-full ">
                 <FontAwesomeIcon className="tw-text-black tw-text-2xl tw-mt-1 tw-ml-2" icon={faUserCircle} />
-                <h1 className="tw-mr-2">Profile</h1>
+                <h1 className="tw-mr-2 tw-items-center tw-flex">Profile</h1>
               </div>
             </div>
           </NavLink>
