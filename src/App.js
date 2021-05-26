@@ -1,12 +1,15 @@
 import './App.css';
 import ModuleUser from './module/user/moduleUser'
-import '/Users/HSO/Documents/facebook/src/tailwind.css'
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
+      <div className="App">
         <ModuleUser />
-    </div>
+      </div>
+    </BrowserRouter>
+
   );
 }
 
