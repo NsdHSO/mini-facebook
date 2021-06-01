@@ -13,10 +13,10 @@ const ModuleActionRightSide = () => {
       <div className="tw-flex">
         <div className="tw-justify-center tw-items-center tw-flex tw-rounded-full tw-h-0 tw-ml-2 tw-text-gray-500">
           <NavLink to="profile">
-            <div className="tw-bg-gray-200 text-white tw-rounded-full tw-bg-gray-100 hover:tw-bg-gray-200 tw-justify-center tw-items-center">
-              <div className="tw-flex  tw-bg-gray-100 hover:tw-bg-gray-200 tw-rounded-full ">
+            <div className="tw-bg-gray-200 text-white tw-rounded-full tw-bg-white hover:tw-bg-gray-100 tw-justify-center tw-items-center">
+              <div className="tw-flex  tw-bg-white hover:tw-bg-gray-100 tw-rounded-full ">
                 <FontAwesomeIcon className="tw-text-black tw-text-2xl tw-mt-1 tw-ml-2" icon={faUserCircle} />
-                <h1 className="tw-mr-2 tw-items-center tw-flex">Profile</h1>
+                <h1 className="tw-ml-1 tw-mr-2 tw-items-center tw-flex">Profile</h1>
               </div>
             </div>
           </NavLink>

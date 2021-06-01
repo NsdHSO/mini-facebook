@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageAction from './images';
+import ImageAction from './Profile';
 
 const LeftSideSidenav = (props) => {
   return (
@@ -7,10 +7,10 @@ const LeftSideSidenav = (props) => {
       <div className="tw-ml-2 tw-mt-2 tw-w-97 ">
         <ImageAction />
         {props.data.map((resp) => (
-          <div className="tw-mt-3 tw-bg-gray-200 text-white tw-bg-white hover:tw-bg-gray-500 tw-justify-center tw-items-center tw-h-12 tw-rounded-2xl">
-            <div className=" tw-transition tw-duration-200 tw-ease-in-out tw-justify-start tw-flex tw-bg-white hover:tw-bg-gray-300 tw-h-12 tw-rounded-2xl">
+          <div className="tw-mt-3 tw-bg-gray-200 text-white tw-bg-gray-100 hover:tw-bg-gray-500 tw-justify-center tw-items-center tw-h-12 tw-rounded-2xl">
+            <div className=" tw-transition tw-duration-200 tw-ease-in-out tw-justify-start tw-flex tw-bg-gray-100 hover:tw-bg-gray-300 tw-h-12 tw-rounded-2xl">
 
-              <p className="tw-items-center tw-flex  tw-ml-3">{resp.age}</p>
+              <p className="tw-items-center tw-flex  tw-ml-3">{resp.id}</p>
             </div>
           </div>
         ))}

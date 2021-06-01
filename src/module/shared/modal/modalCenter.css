@@ -1,0 +1,9 @@
+.modal-center_background {
+  width: 35.4%;
+  height: max-content !important;
+  background: rgba(255, 255, 255, 100.8);
+  position: fixed;
+  align-items: center;
+  z-index: 100000;
+  box-shadow: -1px 17px 20px 11px lightgrey;
+}

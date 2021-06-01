@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import InputArea from './moduleInput/inputArea'
-import ActionModule from "./moduleActions/moduleActions";
+import InputArea from './moduleInput/InputArea'
+import ActionModule from "./moduleActions/ModuleActions";
 import { Route, Switch } from "react-router-dom";
-import ModuleActionRightSide from './moduleActionRight/moduleActionsRight'
-import ProfileModule from "./profile/profileModule";
-import ModuleHome from "./moduleHome/moduleHome";
-import { getDataMock } from './../services/user.js'
+import ModuleActionRightSide from './moduleActionRight/ModuleActionsRight'
+import ProfileModule from "./profile/ProfileModule";
+import ModuleHome from "./moduleHome/ModuleHome";
 
 class ModuleUser extends Component {
   constructor(props) {
@@ -24,19 +23,21 @@ class ModuleUser extends Component {
               <InputArea />
             </div>
           </div>
-          <div className="tw-flex tw-justify-center tw-flex-grow tw-mx-56 tw-max-w-4xl">
+          <div className="tw-flex tw-justify-center tw-flex-grow tw-mx-72 tw-max-w-4xl">
             <ActionModule />
           </div>
-          <div className="tw-flex tw-justify-left tw-mr-5">
+          <div className="tw-flex tw-justify-left tw-mr-5" >
             <ModuleActionRightSide />
           </div>
         </div>
       </div>
-      <Switch>
+      <div className="tw-bg-gray-100">
+      <Switch >
       <Route path="/profile" component={ProfileModule}></Route>
         <Route path="/" exact component={ModuleHome}>
         </Route>
       </Switch>
+      </div>
     </React.Fragment>;
   }
 }

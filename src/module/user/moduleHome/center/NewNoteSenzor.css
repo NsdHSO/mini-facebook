@@ -1,0 +1,13 @@
+.new-note_hover:hover::before,
+.new-note_hover:hover::after {
+  --scale: 1
+}
+
+.new-note_hover:hover {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  background-color: red !important;
+  z-index: 100000000;
+  transform: rotate();
+}
