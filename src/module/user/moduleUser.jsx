@@ -33,7 +33,7 @@ class ModuleUser extends Component {
       </div>
       <div className="tw-bg-gray-100">
       <Switch >
-      <Route path="/profile" component={ProfileModule}></Route>
+      <Route path="/profile" component={() => {<ProfileModule query={{comments: "ion"}}/>}}></Route>
         <Route path="/" exact component={ModuleHome}>
         </Route>
       </Switch>

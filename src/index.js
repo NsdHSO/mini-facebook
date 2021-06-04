@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import './tailwind.css'
 import { BrowserRouter } from 'react-router-dom';
+import 'react-perfect-scrollbar/dist/css/styles.css';
 
 ReactDOM.render(
   <React.StrictMode>
