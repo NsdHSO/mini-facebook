@@ -1,1 +1,3 @@
-console.log('sami');
+var a = 2;
+console.log('samadasdi');
+ssdasd
