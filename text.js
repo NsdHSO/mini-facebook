@@ -1,1 +1,1 @@
-console.log('sami');
+console.log('sams:);
